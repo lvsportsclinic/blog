@@ -9,11 +9,11 @@
 		<title>Solid State Blog</title>
 		<meta charset="utf-8" />
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/pagestyle.css" />
-		<link rel="stylesheet" href="assets/css/blog.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="assets/css/pre.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/pagestyle.css" />
+		<link rel="stylesheet" href="../assets/css/blog.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/pre.css" />
 		
 		<!-- uses google-code-prettify for syntax highlighting 
 		     see https://github.com/google/code-prettify/ for more info -->
@@ -45,7 +45,7 @@
 			<div id="page-wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="https://nift.cc"><img class="logo" src="img/nift.svg" width="120px" style="margin-top:5px"></a>
+						<a href="https://nift.cc"><img class="logo" src="../img/nift.svg" width="120px" style="margin-top:5px"></a>
 				
 						<nav>
 							<noselect><a href="#menu">Menu</a></noselect>
@@ -58,16 +58,43 @@
 							<h2>Menu</h2>
 				
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../blog.html">Blog</a></li>
+								<li><a href="../about.html">About</a></li>
+								<li><a href="../faq.html">FAQ</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
 
+				<!-- Wrapper -->
+				<section id="wrapper">
+					<header>
+						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
+							<h2>Post 2: A project I recently finished</h2>
+						</div>
+					</header>
 				
+					<!-- Content -->
+					<div class="wrapper">
+						<div class="inner">
+							<div class="content">
+								<textarea class="markdown">
+									Markdown content goes here, you could put it in a new markdown file *blog/post02.md* if you wanted and then have &commat;input(blog/post02.md). Or you could move the &lt;textarea&gt; tags in to the page template **template/page.template** and set the default extension in *.siteinfo/nsm.config* to **.md**. You may also like to play with the css for headers to have them automatically centre, that way your Markdown headers will be centred.
+								</textarea>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Four -->
+					<section class="wrapper style3">
+						<div class="inner">
+							<div class="content">
+							</div>
+						</div>
+					</section>
+				</section>
 
 				<!-- Footer -->
 					<section id="footer">
@@ -76,7 +103,7 @@
 								<div class="footer_text"><b>Solid State Blog Template</b></div>
 				
 								<noselect>
-									<img src="img/nsm.png" width="100px" style="margin-bottom:20px"> <br>
+									<img src="../img/nsm.png" width="100px" style="margin-bottom:20px"> <br>
 								</noselect>
 				
 								<b>Mirrors:</b> 
@@ -96,15 +123,15 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/process_pre_tags.js"></script>
-			<script src='assets/js/process_md_blocks.js'></script>
-			<script src="assets/js/showdown.min.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/process_pre_tags.js"></script>
+			<script src='../assets/js/process_md_blocks.js'></script>
+			<script src="../assets/js/showdown.min.js"></script>
 			<script>
 				var converter = new showdown.Converter();
 				converter.setOption('tables', 'on');
