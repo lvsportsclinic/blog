@@ -1,3 +1,27 @@
+/home/paul/blog/content/blog
+post01.content
+post02.content
+
+/home/paul/blog/content/blog/post01
+post01
+template/page.template
+
+/home/paul/blog/content/blog/post01.content
+/home/paul/blog/content/blog/post02.content
+template/page.template
+
+/home/paul/blog/content/blog/post02
+post02
+template/page.template
+
+/home/paul/blog/content/blog/post02.content
+post02.content
+template/page.template
+
+/home/paul/blog/content/blog/post03
+post03
+template/page.template
+
 404
 404
 template/page.template
@@ -28,5 +52,13 @@ template/page.template
 
 index
 index
+template/page.template
+
+post01
+post01
+template/page.template
+
+post01.content
+post02.content
 template/page.template
 
